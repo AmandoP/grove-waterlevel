@@ -10,7 +10,7 @@ namespace WaterLevel {
      * Gibt die Anzahl aktiver Segmente (0–20) zurück
      */
     //% block
-    export function aktiveSegmente(): number {
+    export function AktiveSegmente(): number {
         let touched = 0
 
         lowData = readI2CBuffer(0x77, 8)
@@ -35,7 +35,7 @@ namespace WaterLevel {
      * Gibt den prozentualen Wasserstand (0–100%) zurück
      */
     //% block
-    export function prozent(): number {
+    export function Prozent(): number {
         const touched = aktiveSegmente()
         return touched * 100 / 20
     }
