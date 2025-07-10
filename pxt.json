@@ -1,0 +1,10 @@
+{
+  "name": "waterlevel",
+  "version": "0.0.1",
+  "description": "Wasserstandssensor für Grove I2C Sensor (MMR006)",
+  "dependencies": {},
+  "files": [
+    "main.ts"
+  ],
+  "public": true
+}
